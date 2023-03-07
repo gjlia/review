@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+
+           $("#clique").on('click', function() {
+           let background = $("#campo").val(); 
+           });
+        
+           $("#redturn").on('click', function(){
+           $('body').css('background-color', 'red'); 
+           });
+           $('#orangeturn').on('click', function(){
+           $('body').css('background-color', 'orange');
+           });
+           $('#yellowturn').on('click', function(){
+           $('body').css('background-color', 'yellow'); 
+           });
+           $('#greenturn').on('click', function(){
+           $('body').css('background-color', 'green'); 
+           });
+           $('#blueturn').on('click', function(){
+           $('body').css('background-color', 'blue'); 
+           });
+           $('#purpleturn').on('click', function(){
+           $('body').css('background-color', 'purple'); 
+           });
+           $('#pinkturn').on('click', function(){
+           $('body').css('background-color', 'pink'); 
+           });
+        });
+     </script>
+</head>
+<body>
+    <button id="redturn">Vermelho</button>
+    <button id="orangeturn">Laranja</button>
+    <button id="yellowturn">Amarelo</button>
+    <button id="greenturn">Verde</button>
+    <button id="blueturn">Azul</button>
+    <button id="purplaturn">Roxo</button>
+    <button id="pinkturn">Rosa</button>  
+</body>
+</html>
